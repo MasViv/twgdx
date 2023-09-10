@@ -1,0 +1,47 @@
+body
+{
+    background-color:teal;
+}
+
+p
+{
+color:white;
+}
+
+h1
+{
+    color:white;
+    background-color:blue;
+}
+
+#score
+{
+    color:white;
+    float: left;
+    margin-left:20px;
+    font-size:40px;
+}
+
+#timer
+{
+    color:white;
+    float: right;
+    margin-right:20px;
+    font-size:40px;
+}
+
+canvas
+{
+    border-radius:0;
+    border: 5px solid teal;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+from{box-shadow:1px 1px 38px aquamarine;}
+to{box-shadow:1px 1px 38px blue;}
+}
